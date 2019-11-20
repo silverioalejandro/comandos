@@ -18,3 +18,7 @@ para agregar las modificaciones al stage
 
 para crear commit 
     git commit -m "lo que se progamo"
+
+para subirlo a github
+    git push origin master
+    
