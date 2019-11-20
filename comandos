@@ -16,3 +16,5 @@ para visualizar el estado
 para agregar las modificaciones al stage
     git add .
 
+para crear commit 
+    git commit -m "lo que se progamo"
