@@ -25,3 +25,5 @@ para subirlo a github
 para bajar de github
     git pull origin master
     
+para clonar proyecto
+    git clone ruta-url
