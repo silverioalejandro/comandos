@@ -27,3 +27,7 @@ para bajar de github
     
 para clonar proyecto
     git clone ruta-url
+
+para dirigirme a la carpeta en el terminator
+    cd Documentos/web-silverio
+    
