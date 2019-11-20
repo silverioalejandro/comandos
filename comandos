@@ -1,0 +1,18 @@
+echo "# comandosgit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/silverioalejandro/comandosgit.git
+git push -u origin master
+
+
+
+para visualizar los commit
+    git log --oneline
+
+para visualizar el estado
+    git status
+
+para agregar las modificaciones al stage
+    git add .
+
