@@ -1,0 +1,21 @@
+CONCEPTOS CSS:
+    refencias
+        etiquetas:
+            h1,h3,p {
+                programar
+            }
+
+        class:
+            .nameclass {
+
+            }
+
+            .nameclass .nameclass{
+
+            }
+        
+        id:
+            #nameid{
+
+            }
+            
