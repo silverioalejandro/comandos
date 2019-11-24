@@ -31,3 +31,6 @@ para clonar proyecto
 para dirigirme a la carpeta en el terminator
     cd Documentos/web-silverio
     
+para borrar todos los cambios 
+    git checkout .
+
