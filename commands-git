@@ -34,3 +34,8 @@ para dirigirme a la carpeta en el terminator
 para borrar todos los cambios 
     git checkout .
 
+para subirlo a la web
+    git push heroku master
+
+para realizar deploy heroku
+    heroku login
