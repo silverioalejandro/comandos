@@ -24,3 +24,5 @@ Edit file
  nano name-file
 Show content file
   cat name-file
+Clear view
+  clear
