@@ -1,0 +1,26 @@
+Ubicacion actual
+  pwd
+Listar documentos 
+  ls -l
+Dirigirse a una carpeta
+  cd name-folder
+Retornar un nivel
+  cd ..
+Create folder
+  mkdir name-folder
+Create file-
+  touch name-file
+Delete file
+  rm name-file
+Delete folder
+  rm -r name-folder
+Change name folder or file
+  mv current-name and new-name
+Copy file
+  cp origin destiny 
+Copy folder
+  cp -r origin destiny
+Edit file 
+ nano name-file
+Show content file
+  cat name-file
