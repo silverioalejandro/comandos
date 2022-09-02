@@ -5,8 +5,28 @@ git commit -m "first commit"
 git remote add origin https://github.com/silverioalejandro/comandosgit.git
 git push -u origin master
 
+establecer el usuario
+    local
+git config user.name "silverioalejandro"
 
+    global
+git config --globlal user.name "silverioalejandro"
 
+establecer el gmail
+    local
+git config user.email "silverioserranoj@gmail.com"
+
+    global
+git config --globlal user.email "silverioserranoj@gmail.com"
+
+establecer el password
+
+    local
+git config user.password "xxx"
+
+    global
+git config --globlal user.password "xxx"
+    
 para visualizar los commit
     git log --oneline
 
