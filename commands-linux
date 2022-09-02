@@ -26,3 +26,20 @@ Show content file
   cat name-file
 Clear view
   clear
+
+
+comandos usados anteriormente 
+history
+
+flitrar por una cadena de texto (cuando no te acuerdas de un codigo)
+history|grep (parte del comando)
+
+Ejemplo:
+  comando correcto
+    clear
+  No me acuerdo el comando solo se que es 
+    cle
+    Este comando los filtra por cle
+      history|grep cle
+    
+
