@@ -41,5 +41,6 @@ Ejemplo:
     cle
     Este comando los filtra por cle
       history|grep cle
-    
-
+      
+asistente de busqueda
+control r
