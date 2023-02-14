@@ -1,2 +1,26 @@
 elistar servidores (contenedores docker)
 docker ps
+
+Crear nueva red
+docker network create my-network
+
+listado de todas las resdes disponibles
+docker network ls
+
+para eliminar un container
+docker compose down
+
+para eliminar una red
+docker network rm red-name
+
+para saber todos los contenedores asociados a la red
+docker network inspect network-name
+
+para subir el contenedor de manera dinamica
+docker compose up -d
+
+compilar todas las modificaciones dentro del archivo
+docker compose build
+
+apagar el contenedor
+docker compose stop

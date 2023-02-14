@@ -1,7 +1,7 @@
 Ubicacion actual
   pwd
 Listar documentos 
-  ls -l
+  ls -l or ll
 Dirigirse a una carpeta
   cd name-folder
 Retornar un nivel
@@ -32,7 +32,7 @@ comandos usados anteriormente
 history
 
 flitrar por una cadena de texto (cuando no te acuerdas de un codigo)
-history|grep (parte del comando)
+history | grep (parte del comando que estamos usando)
 
 Ejemplo:
   comando correcto
