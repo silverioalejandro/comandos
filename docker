@@ -24,3 +24,12 @@ docker compose build
 
 apagar el contenedor
 docker compose stop
+
+detiene todos los contenedores al mismo timepo
+docker stop $(docker ps -a -q)
+
+eliminar todas las imagenes
+docker rmi $(docker images -q)
+
+entrar a la maquina de docker
+docker exec -it blacklist /bin/bash
