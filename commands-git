@@ -62,3 +62,6 @@ para subirlo a la web
 
 para realizar deploy heroku
     heroku login
+
+por el terminal te diriges a el operador que quieras abrir
+    ejemplo: code /var/www/comandos/

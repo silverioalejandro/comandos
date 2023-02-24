@@ -1,0 +1,98 @@
+-- Estructura
+select 
+    -- campos
+    *
+from 
+    -- tablas con alias
+    operators o
+where 
+    -- condiciones
+    o.id = 12
+order by 
+    -- ordernar por 
+    o.id DESC ;  
+
+-- todas las tablas deben tener un alias en este caso el de operators es "o"
+
+-- muestra todos los campos de la tabla
+
+-- 1) total de registro de la tabla
+SELECT * FROM operators o ;
+
+-- 2) muesta los campos solicitados con "o."
+SELECT o.id, o.name, o.email, o.created_at, o.updated_at  FROM operators o ;
+
+-- 3) muestra el total de registro de la tabla
+SELECT COUNT(1) FROM operators o ;
+
+-- 4) filtrar por id
+SELECT * FROM operators o WHERE o.id = 12 ;
+
+-- 5)filtrar por id mayor que
+SELECT * FROM operators o WHERE o.id > 10 ;
+
+-- 6)filtrar por id mayor o igual que
+SELECT * FROM operators o WHERE o.id >= 10 ;
+
+-- 7) filtrar por id entre un rango
+SELECT * FROM operators o WHERE o.id >= 10 AND o.id <= 20 ;
+
+-- 8)filtra between
+SELECT * FROM operators o WHERE o.id BETWEEN 10 AND 14 ;
+
+-- 9)por defecto ordena de manera ascendente
+SELECT * FROM operators o WHERE o.id > 0 ORDER by o.id ;
+
+-- 10) por "DESC" ordena de manera descendente
+SELECT * FROM operators o WHERE o.id > 0 ORDER by o.id DESC ;
+
+-- 11)ordenar sin condiciones
+SELECT * FROM operators o order by o.id DESC ;
+
+-- 12) muestra el comando IN
+SELECT * FROM operators o WHERE o.id IN (4,5,10,17) ;
+
+-- 13) no muestra lo especificado dentro del "NOT IN"
+SELECT * FROM operators o WHERE o.id NOT IN (4,5,10,17) ;
+
+-- 14)que contenga un string '%%'
+SELECT * FROM operators o WHERE o.email LIKE '%gmail.com%' ;
+
+-- 15)
+SELECT * FROM operators o ;
+SELECT * FROM rols r ;
+
+SELECT 
+	o.name, 
+	email,
+	r.name as rol_name
+FROM 
+	operators as o 
+join rols r on o.role_id = r.id 
+
+SELECT * FROM rols r 
+
+-- crear 
+insert into rols (name, created_at, updated_at) 
+values ('elimnar', now(), now());
+
+-- modificar
+update rols set name = 'Eliminar ahora', updated_at = now() where id = 4;
+
+-- delete 
+delete from rols where id = 4;
+Hacer lo mismo pero con operators
+
+DELETE FROM rols WHERE id =6;
+
+INSERT into operators (name, email, api_token, token, password, is_active, role_id, created_by, created_at)
+values ('developed', 'silverioserranoj@mail.com', 'aijhdfajhkl', 'hfhaklfa', 'urjaofijh', 1, 4, 1 now());
+
+SELECT 
+	o.name, 
+	o.email,
+	r.name as rol_name
+FROM 
+	operators as o 
+join rols r on o.role_id = r.id 
+where o.id = 28;
