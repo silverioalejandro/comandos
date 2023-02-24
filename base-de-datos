@@ -96,3 +96,42 @@ FROM
 	operators as o 
 join rols r on o.role_id = r.id 
 where o.id = 28;
+
+SELECT * FROM rols r ; 
+
+-- 
+SELECT
+	r.id as role_id ,
+	r.name as rol_name,
+	count(r.id) total
+from 
+	operators o 
+join rols r on o.role_id = r.id 
+GROUP by r.id, r.name ;
+
+
+SELECT
+	r.id as role_id ,
+	r.name as rol_name,
+	count(r.id) total
+from 
+	operators o 
+join rols r on o.role_id = r.id 
+GROUP by r.id, r.name ;
+
+SELECT o.id, o.name, o.email, role_id FROM operators o WHERE role_id = 1 ;
+
+select * from operators o ;
+
+SELECT *FROM job_clicks jc ;
+
+COUNT(1),
+sum(jc.cpc_charged), sum(jc.cpc_pay) from job_clicks jc
+
+select 
+	jc.lead_id, COUNT(1) total,
+	sum(jc.cpc_charged) total_cpc, sum(jc.cpc_pay) total_pay
+FROM job_clicks jc 
+group by jc.lead_id;
+
+
