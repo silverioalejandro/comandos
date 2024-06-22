@@ -1,0 +1,25 @@
+//archivo json empieza con llave Ejemplo {
+"menu": []
+}
+
+Para crear un Item debo ir a "resources->js->data->drawerItems.json"
+//pagina para de dibujos de iconos https://pictogrammers.github.io/@mdi/font/4.5.95/
+
+Crear archivo para llamar a la vista
+resources->js->views->folderName(crear folder con el nombre que del item que estemos creando)->FileNombre.vue(crear un file con el nombre del folder con ".vue" al final) //adentro del file colocar el código de los archivos .vue
+
+Después crear un archivo en resources->js->router->nombre.js (al nombre se le debe agreagar ".js" al final)
+colocar el código correspondiente al archivo js . Y si una línea de código está opaca, es porque hay un error en donde estoy situado (posiblemente el nombre o que no estoy llamando al archivo)
+
+
+Después de crear el archivos, debemos llamarlo y crearlo en reasources->js->router->index.js (en index.js se debe agraegar con el sig código: import  from "./");
+Cuando una línea de código está opaca, es porque hay un error en donde estoy situado (posiblemente el nombre o que no estoy llamando al archivo)
+
+
+
+
+
+mayor cosas del cliente resources
+mayor cosas del backend en "app"
+
+Correr en una consola el comando "npm run watch" para que el proyecto se pueda ver con las actualizaciones
