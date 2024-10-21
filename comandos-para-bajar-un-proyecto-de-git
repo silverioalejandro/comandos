@@ -1,0 +1,40 @@
+abro el terminal
+
+//dirigirse a la carpeta www//
+cd /var/www/
+
+//clono el proyecto en el terminal//
+git clone ruta-url
+
+//abro el proyecto en el vs code//
+code ../nombre-del-proyecto
+
+//compiar el archivo .env.example y borrar el ".example"//
+.env
+
+//una vez en el proyecto entrar al docker//
+docker exec -it nombre-del-proyecto /bin/bash
+
+//descargar dentro del docker la dependencia (librerias internas)//
+composer install
+
+//luego//
+php artisan migrate
+
+//despues//
+php artisan migrate:refresh --seed
+
+//descargar afuera del docker//
+npm install --legacy-peer-deps
+
+//luego//
+npm run watch-poll
+
+//modificar el nombre de la url en el archivo .env//
+http://kairos.vm
+
+//afuera del docker//
+sudo nano /etc/hosts
+
+//luego agregar "kairos.vm" al lado de localhost//
+
