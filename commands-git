@@ -51,11 +51,18 @@ para bajar de github
 para clonar proyecto
     git clone ruta-url
 
+    para crear una rama
+    git checkout -b feature/nombre-de-lo-que-se-cambia
+
+en main actualiza los datos de la rama
+    git merge nombreDeLaRama
+
+para borrar todos los cambios 
+    git checkout .
+
 para dirigirme a la carpeta en el terminator
     cd Documentos/web-silverio
     
-para borrar todos los cambios 
-    git checkout .
 
 para subirlo a la web
     git push heroku master
@@ -65,3 +72,4 @@ para realizar deploy heroku
 
 por el terminal te diriges a el operador que quieras abrir
     ejemplo: code /var/www/comandos/
+

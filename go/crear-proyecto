@@ -1,0 +1,8 @@
+https://go-blueprint.dev/
+
+https://github.com/Melkeydev/go-blueprint?tab=readme-ov-file#install
+
+Pasos:
+ go install github.com/melkeydev/go-blueprint@latest
+ GOPATH=$HOME/go  PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+ 
