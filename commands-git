@@ -51,7 +51,7 @@ para bajar de github
 para clonar proyecto
     git clone ruta-url
 
-    para crear una rama
+para crear una rama
     git checkout -b feature/nombre-de-lo-que-se-cambia
 
 en main actualiza los datos de la rama
